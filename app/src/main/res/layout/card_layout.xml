@@ -5,10 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="5dp"
+    android:clickable="true"
+    android:foreground="?selectableItemBackground"
     card_view:cardBackgroundColor="#81C784"
     card_view:cardCornerRadius="8dp"
-    card_view:cardUseCompatPadding="true"
     card_view:cardElevation="3dp"
+    card_view:cardUseCompatPadding="true"
     card_view:contentPadding="4dp">
 
     <RelativeLayout
